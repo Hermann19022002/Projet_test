@@ -84,7 +84,7 @@ Le programme exécute 6 démonstrations :
 5. **Sauvegarde/Chargement** - Persistance des données
 6. **Récupération données** - Information sur l'API (optionnel)
 
-#### Exemple d'utilisation dans votre code
+#### Exemple d'utilisation du code
 
 ```python
 from Corpus import Corpus
