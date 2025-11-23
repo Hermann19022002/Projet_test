@@ -1,6 +1,0 @@
-id,title,author,date,url,text,type,subreddit,nb_commentaires,coauthors
-0,Python 3.12 est sorti !,Alice,2024-11-20,https://reddit.com/r/python/comments/123,La nouvelle version de Python apporte de nombreuses améliorations...,Reddit,python,145,
-1,Deep Learning for Natural Language Processing,Dr. Smith,2024-10-15,https://arxiv.org/abs/2410.12345,This paper presents a novel approach to NLP using transformers...,Arxiv,,,"Dr. Johnson, Prof. Lee, Dr. Martinez"
-2,AI Ethics Discussion,Bob,2024-11-15,https://reddit.com/r/artificial/comments/456,We need to discuss the ethical implications of AI...,Reddit,artificial,89,
-3,Quantum Computing Applications,Dr. Zhang,2024-09-30,https://arxiv.org/abs/2409.98765,Exploring practical applications of quantum computing...,Arxiv,,,"Dr. Kumar, Prof. Chen"
-4,Best Python Libraries 2024,Charlie,2024-12-01,https://reddit.com/r/learnpython/comments/789,Here are my top picks for Python libraries this year...,Reddit,learnpython,234,
