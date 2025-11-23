@@ -47,28 +47,9 @@ v1_project[1]/
 
 ### 🚀 Installation
 
-#### Option 1 : Installation minimale (RECOMMANDÉE pour Python 3.13)
-
-Cette option utilise uniquement les modules standard de Python + APIs nécessaires.
-
-1. **Cloner le projet** (ou télécharger le dossier)
-
-2. **Installer les dépendances minimales**
-   ```bash
-   pip install -r requirements_minimal.txt
-   ```
-   
-   Cette version fonctionne parfaitement sur **Python 3.10+** incluant **Python 3.13**.
-
-#### Option 2 : Installation complète (avec pandas/numpy)
-
-Si vous avez Python 3.10 ou 3.11 et souhaitez utiliser pandas :
-
 ```bash
 pip install -r requirements.txt
 ```
-
-⚠️ **Note** : pandas peut avoir des problèmes de compilation sur Python 3.13. Utilisez l'option 1 dans ce cas.
 
 #### Configuration API Reddit (optionnel)
    
@@ -219,11 +200,7 @@ Projet réalisé dans le cadre du cours "Programmation de Spécialité : Python"
 ### 🐛 Résolution de problèmes
 
 **Problème** : Erreur de compilation numpy/pandas sur Python 3.13
-- **Cause** : Python 3.13 est trop récent, numpy/pandas 1.26.x nécessitent un compilateur C
-- **Solution** : Utiliser `requirements_minimal.txt` au lieu de `requirements.txt`
-  ```bash
-  pip install -r requirements_minimal.txt
-  ```
+
 - Cette version utilise le module `csv` standard à la place de pandas et fonctionne parfaitement
 
 **Problème** : ImportError lors de l'exécution
